@@ -5,12 +5,12 @@ import Main from './Main';
 import Footer from './Footer';
 function App() {
   return (
-    <>
-      <Header />
-      <Nav />
+    <div class="container">
+      <div class="flex-container"><Header  /><Nav /></div>
+
       <Main />
       <Footer />
-    </>
+    </div>
   );
 }
 

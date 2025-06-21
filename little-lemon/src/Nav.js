@@ -1,14 +1,14 @@
 import React from 'react';
-import logo from './assets/Logo.svg'
 
 function Nav(){
     return (
-        <nav>
-            <a href="/html/">HTML</a> 
-            <a href="/css/">CSS</a> 
-            <a href="/js/">JavaScript</a> 
-            <a href="/jquery/">jQuery</a>
-        </nav>
+        <ul className="nav-list">
+            <li class="nav-item">Home</li> 
+            <li class="nav-item">About</li> 
+            <li class="nav-item">Menu</li> 
+            <li class="nav-item">Order Online</li>
+            <li class="nav-login" > Login</li>
+        </ul>
     );
 }
 

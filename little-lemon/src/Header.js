@@ -5,7 +5,6 @@ function Header(){
     return (
         <div>
             <img src={logo} alt='logo'/>
-            <text>hello</text>
         </div>
     );
 }
