@@ -5,12 +5,17 @@ import Main from './Main';
 import Footer from './Footer';
 function App() {
   return (
-    <div class="container">
-      <div class="flex-container"><Header  /><Nav /></div>
-
-      <Main />
-      <Footer />
-    </div>
+    <>
+      <div class="container">
+        <div class="flex-container"><Header  /><Nav /></div>
+      </div>
+      <>
+        <div class="mainpage">
+          <Main />
+        </div>
+        <Footer />
+      </>
+    </>
   );
 }
 

@@ -2,31 +2,11 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
 .App-link {
   color: #61dafb;
 }
+
+/* Root Layout */
 
 .container {
   /* top right bottom left*/
@@ -38,15 +18,52 @@
   justify-content: space-between;
 }
 
-
 .nav-list {
   display:flex;
   list-style:none
 }
+
 .nav-item{
   margin-right:2vw
 }
 
 .nav-login{
   margin-left: 3vw
+}
+
+.mainpage {
+  background-color: rgba(73, 94, 87, 0.7); 
+}
+
+.section {
+  flex:1;
+
+}
+
+
+
+@media (max-width: 1200px) {
+  .nav-list{
+      flex-direction:column;
+      align-items:center;
+      /* visibility: hidden; */
+  }
+
+  .container{
+    margin: 0px 0px 0px 0px;
+  }
+
+  .flex-container{
+    flex-direction:column;
+    justify-content: center;
+  }
+
+  .nav-item{
+    justify-content: center;
+  }
+
+  .nav-login{
+    justify-content: center;
+  }
+
 }

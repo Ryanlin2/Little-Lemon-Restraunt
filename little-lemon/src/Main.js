@@ -1,9 +1,18 @@
 import React from 'react';
-import logo from './assets/Logo.svg'
+
 
 function Main(){
     return (
-        <h1>Main</h1>
+        <div className="container">
+                <div className="nav-list">
+                                <div className="section">
+                    <h1>Little Lemon</h1>
+                </div>
+                <div className="section">
+                    <h1>Little Lemon</h1>
+                </div>
+            </div>
+        </div>
     );
 }
 
