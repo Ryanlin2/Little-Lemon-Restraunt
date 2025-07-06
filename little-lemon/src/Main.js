@@ -13,7 +13,7 @@ function Main(){
                             We are family owned Mediterranean restraunt, focused on treaditional recipes served with a modern twist.
                         </p>
                     </div>
-                <div className="section">
+                <div className="section-right">
                     <div className="section image-wrapper">
                     <img src={restauranfood} alt="server" className="serverImg" />
                     </div>
