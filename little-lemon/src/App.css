@@ -16,11 +16,26 @@
 .flex-container {
   display :flex;
   justify-content: space-between;
+
+}
+
+.main-container{
+    margin:20px 20vw 0px 20vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+  width: 300px;
+  height: auto; /* keeps aspect ratio */
 }
 
 .nav-list {
   display:flex;
-  list-style:none
+  list-style:none;
+  font-size: 22px;
+  font-family: 'Georgia', sans-serif;
 }
 
 .nav-item{
@@ -37,28 +52,30 @@
 
 .section {
   flex:1;
-  height: 400px;
+  height: 500px;
   max-width: 50%;
   position:relative;
 }
 
 .serverImg{
-  height:400px;
-  width:300px;
+  height:600px;
+  width: auto;
   border-radius:20px;
+}
+
+.section-right{
+  display:flex;
+  flex-direction: row-reverse;
+
 }
 
 .image-wrapper {
   position: relative;
   z-index: 1; 
   transform: translateY(10%);
-}
-
-.section-right{
-  display:flex;
-  justify-content: right;
 
 }
+
 
 .title{
   color:#f4ce14;
@@ -89,8 +106,10 @@
 }
 
 .reserve-table-button{
-  width:200px;
-  height:60px;
+  width:300px;
+  height:90px;
   background-color: black;
   color: white;
+  font-family: 'Georgia', sans-serif;
+  font-size:24px;
 }
