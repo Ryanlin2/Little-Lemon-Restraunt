@@ -7,8 +7,8 @@ function Main(){
                 <div className="nav-list">
                     <div className="section">
                         <div>
-                             <h1 classname="">Little Lemon</h1>
-                            <h3>Chicago</h3>
+                            <h1 className="title">Little Lemon</h1>
+                            <h3 className="chicago">Chicago</h3>
                             <p className="description">
                                 We are family owned <br></br> 
                                 Mediterranean restraunt, <br></br>

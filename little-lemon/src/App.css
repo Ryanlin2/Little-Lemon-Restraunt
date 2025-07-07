@@ -60,6 +60,22 @@
 
 }
 
+.title{
+  color:#f4ce14;
+  font-family: 'Georgia', sans-serif;
+  font-size:64px;
+  font-weight: 10;
+  margin-bottom:0px;
+}
+
+.chicago{
+  color:white;
+  font-family: 'Georgia', sans-serif;
+  font-size:24px;
+  font-weight: 10;
+  margin-bottom:0px;
+}
+
 .description{
   font-size:18px;
   color:white;
@@ -69,7 +85,7 @@
   position:absolute;
   bottom:10px;
   width:100%;
-  height: 125px;
+  height: 70px;
 }
 
 .reserve-table-button{
