@@ -1,4 +1,3 @@
-import React from 'react';
 import restauranfood from './assets/restauranfood.jpg'
 
 function Main(){

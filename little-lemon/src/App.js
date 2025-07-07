@@ -3,6 +3,8 @@ import Header from './Header';
 import Nav from './Nav';
 import Main from './Main';
 import Footer from './Footer';
+import Specials from './Sections/Specials';
+
 function App() {
   return (
     <>
@@ -13,6 +15,14 @@ function App() {
         <div class="mainpage">
           <Main />
         </div>
+
+      </>
+      <>
+          <div className ='special-section-container container'>
+          <Specials />
+        </div>
+      </>
+      <>
         <Footer />
       </>
     </>

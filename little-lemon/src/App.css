@@ -59,7 +59,7 @@
 
 .serverImg{
   height:600px;
-  width: auto;
+  width: 450px;;
   border-radius:20px;
 }
 
@@ -75,7 +75,6 @@
   transform: translateY(10%);
 
 }
-
 
 .title{
   color:#f4ce14;
@@ -112,4 +111,33 @@
   color: white;
   font-family: 'Georgia', sans-serif;
   font-size:24px;
+}
+
+.specials-section-left-top{
+  background-color: red;
+}
+
+.specials-section-container{
+  height: 700px;
+  background-color: #61dafb;
+  display: flex;
+  justify-content: space-between;
+  margin-top:120px;
+}
+
+.special-message{
+  font-size:36px;
+  font-family: Georgia, 'Times New Roman', Times, serif
+}
+
+.specials-section-right-top{
+  background-color: #f4ce14;
+}
+
+.online-menu-button {
+  width: 275px;
+  height: 80px;
+  font-size:32px;
+  font-weight: bold;
+  
 }
