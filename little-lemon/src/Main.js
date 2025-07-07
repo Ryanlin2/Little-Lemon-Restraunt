@@ -1,5 +1,4 @@
 import React from 'react';
-import logo from './assets/Logo.svg'
 import restauranfood from './assets/restauranfood.jpg'
 
 function Main(){
@@ -7,11 +6,22 @@ function Main(){
         <div className="container">
                 <div className="nav-list">
                     <div className="section">
-                        <h1>Little Lemon</h1>
-                        <h3>Chicago</h3>
-                        <p>
-                            We are family owned Mediterranean restraunt, focused on treaditional recipes served with a modern twist.
-                        </p>
+                        <div>
+                             <h1 classname="">Little Lemon</h1>
+                            <h3>Chicago</h3>
+                            <p className="description">
+                                We are family owned <br></br> 
+                                Mediterranean restraunt, <br></br>
+                                focused on treaditional<br></br>
+                                recipes served with a modern <br></br>
+                                twist.
+                            </p>
+                        </div>
+                       
+                        <div className="button-wrapper">
+                            <button className="reserve-table-button">Reserve a Table</button>
+                        </div>
+                        
                     </div>
                 <div className="section-right">
                     <div className="section image-wrapper">

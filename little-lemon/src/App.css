@@ -39,6 +39,7 @@
   flex:1;
   height: 400px;
   max-width: 50%;
+  position:relative;
 }
 
 .serverImg{
@@ -57,4 +58,23 @@
   display:flex;
   justify-content: right;
 
+}
+
+.description{
+  font-size:18px;
+  color:white;
+}
+
+.button-wrapper{
+  position:absolute;
+  bottom:10px;
+  width:100%;
+  height: 125px;
+}
+
+.reserve-table-button{
+  width:200px;
+  height:60px;
+  background-color: black;
+  color: white;
 }
